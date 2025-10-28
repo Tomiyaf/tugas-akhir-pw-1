@@ -576,7 +576,7 @@ nav a:hover {
 }
 
 /* ========== RESPONSIVE ========== */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .project-item {
     flex-direction: column;
     align-items: center;
@@ -599,7 +599,7 @@ nav a:hover {
   .project-text p {
     font-size: 0.9rem;
   }
-}
+} */
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -811,27 +811,6 @@ body {
 
 .social-link:hover {
   color: #d1d5db; /* abu muda */
-}
-
-/* ===== RESPONSIVE ===== */
-@media (max-width: 640px) {
-  .footer {
-    text-align: center;
-    align-items: center;
-  }
-
-  .footer-left {
-    align-items: center;
-  }
-
-  .footer-right {
-    justify-content: center;
-  }
-
-  .scroll-top-btn {
-    right: 50%;
-    transform: translateX(50%);
-  }
 }
 
 /* Custom scrollbar */
